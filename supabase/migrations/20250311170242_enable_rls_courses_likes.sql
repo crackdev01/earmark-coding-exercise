@@ -8,4 +8,4 @@ on "public"."courses_likes"
 as permissive
 for select
 TO public
-using (owns_record(user_id))
+using (owns_record_as_user(user_id));
