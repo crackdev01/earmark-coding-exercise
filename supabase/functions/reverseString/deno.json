@@ -1,3 +1,7 @@
 {
-  "imports": {}
+  "tasks": {
+    "test": "deno test --allow-net"
+  },
+  "imports": {},
+  "nodeModulesDir": true
 }
